@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #0f172a;
+    background-color: #0f1c2e;
     color: white;
     text-align: center;
 }
@@ -10,7 +10,6 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
-    background: #111827;
 }
 
 nav a {
@@ -20,37 +19,31 @@ nav a {
 }
 
 .hero {
-    padding: 60px 20px;
+    padding: 50px 20px;
 }
 
-.profile {
+.profile-img {
     width: 180px;
+    height: 180px;
     border-radius: 50%;
+    object-fit: cover;
     margin-bottom: 20px;
 }
 
-.buttons {
-    margin-top: 20px;
-}
-
 .btn {
-    background: #2563eb;
+    display: inline-block;
+    margin: 10px;
     padding: 10px 20px;
-    margin: 5px;
+    background-color: #3b82f6;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background-color: #2563eb;
 }
 
 section {
-    padding: 60px 20px;
-}
-
-.project {
-    margin: 20px 0;
-}
-
-footer {
-    padding: 20px;
-    background: #111827;
+    padding: 50px 20px;
 }
